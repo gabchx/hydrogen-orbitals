@@ -1,4 +1,4 @@
-import math  # For math.factorial instead of np.math.factorial
+import math 
 import numpy as np
 from scipy.special import eval_genlaguerre, sph_harm
 import matplotlib.pyplot as plt
