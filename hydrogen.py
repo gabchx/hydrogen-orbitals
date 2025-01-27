@@ -254,10 +254,3 @@ if __name__ == "__main__":
 
     # Finally save the 3D animation
     tr_3d.save()
-
-    # If you want to test the 2D transitions, you can do something like:
-    # orb2d = Orbital(1, 0, 0)
-    # tr_2d = Transition(orb2d, fps=60)
-    # tr_2d.wait(1)
-    # tr_2d.transition((2, 1, 1), duration=1)
-    # tr_2d.save()
