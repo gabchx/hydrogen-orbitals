@@ -1,5 +1,7 @@
 ### **Code Explanation**
 
+This code generates 3D visualizations of hydrogen-like atomic orbitals using Python. The orbitals are represented as probability density clouds, showing the spatial distribution of electrons in the atom. The visualization includes 3D scatter plots and 2D cross-sections of the electron cloud.
+
 #### **1. Key Components**
 
 - **Radial Wavefunction (`radial`):**
@@ -44,3 +46,12 @@
    - **3D Scatter Plot:** Shows the electron density cloud.
    - **2D Cross-Sections:** Display slices through the `xy` and `xz` planes using contour plots.
    - Quantum numbers `(n, l, m)` are displayed dynamically.
+
+## Sources :
+
+- [Quantum Orbitals](https://en.wikipedia.org/wiki/Atomic_orbital)
+- [Spherical Harmonics](https://en.wikipedia.org/wiki/Spherical_harmonics)
+- [Laguerre Polynomials](https://en.wikipedia.org/wiki/Laguerre_polynomials)
+- [Hydrogen Atom Wavefunctions](https://en.wikipedia.org/wiki/Hydrogen_atom)
+- [Quantum Mechanics with Python: Hydrogen Wavefunctions and Electron Density Plots](https://ssebastianmag.medium.com/computational-physics-with-python-hydrogen-wavefunctions-electron-density-plots-8fede44b7b12)
+- [qmsolve](https://github.com/quantum-visualizations/qmsolve/tree/main)
